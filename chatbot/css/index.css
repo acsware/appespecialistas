@@ -1,0 +1,85 @@
+
+
+body {
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 13px;
+	background: green;
+}
+
+.container {
+	width: 600px;
+	margin: auto;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Courier New", Monospace;
+	padding-bottom: 5px;
+}
+
+.chat {
+	border: 1px solid #ccc;
+	height: 400px;
+	overflow-y: scroll;
+	background-color: white;
+	
+}
+
+.chat div {
+	margin: 10px 12px 15px;
+
+}
+
+.chat .party {
+	font-weight: bold;
+}
+
+.chat .you {
+	color: red;
+}
+
+.chat .other {
+	color: blue;
+}
+
+
+
+.busy {
+	position: absolute;
+	padding: 3px 0;
+	color: #666;
+	display: none;
+	font-size: 11px;
+}
+
+.input {
+	margin-top: 20px;
+}
+
+.input input {
+	vertical-align: top;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 480px;
+	margin: 0;
+	border-radius: 5px;
+}
+
+.input a {
+	
+	float: right;
+	
+	
+	background-color: #efefef;
+	padding: 7px 35px;
+	color: black;
+	text-decoration: none;
+}
+	
+
+.input a:hover {
+	background-color: #ddd;
+	cursor: pointer;
+}

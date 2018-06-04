@@ -1,0 +1,149 @@
+
+@import url(https://fonts.googleapis.com/css?family=opensans:500);
+
+.container {
+	width: 600px;
+	margin: auto;
+}
+.chat {
+	border: 1px solid #ccc;
+	height: 400px;
+	overflow-y: scroll;
+	background-color: white;
+	
+}
+
+.chat div {
+	margin: 10px 12px 15px;
+
+}
+
+.chat .party {
+	font-weight: bold;
+}
+
+.chat .you {
+	color: red;
+}
+
+.chat .other {
+	color: blue;
+}
+
+
+
+.busy {
+	position: absolute;
+	padding: 3px 0;
+	color: #666;
+	display: none;
+	font-size: 11px;
+}
+
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+*{
+margin: 0;
+padding: 0;
+
+}
+.headerTOP{
+
+	width: 100%;
+	background-color: blue;
+	height: 80px;
+	position: fixed;
+	z-index: 1;
+}
+.configuracion{
+	width: 90%
+	height:70px;
+	margin: auto;
+}
+nav{
+width: 70%;
+height: 100%;
+float:right;
+text-align: right;
+padding-top: 24px;
+}
+
+nav ul li {
+	display:inline;
+}
+nav ul li a{
+color: white;
+font size: 14px;
+text-decoration: none;
+text-transform: uppercase;
+padding-left: 15px;
+font-left:15px;
+font-weight: bold;
+letter-spacing: 1px;
+font-family: consultorio;
+
+}
+nav ul li a:hover{
+	color:red;
+}
+
+@font-face{
+	font-family: consultorio;
+	src:url(fuentes/Raleway-Regular.ttf);
+
+}
+
+.titulo-principal{
+	top:150px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+
+
+	
+}
+.contenido-principal{
+	font-family: 'Open Sans', sans-serif;
+	width: 70%;
+	margin:auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+.contenido-principal h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 50px;
+
+	
+}
+
+input{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('iconos/search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+.flotante {
+    display:scroll;
+        position:fixed;
+        bottom:320px;
+        right:0px;
+}
