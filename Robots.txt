@@ -1,6 +1,11 @@
-User-Agent: *
+User-agent: googlebot
+Disallow: /chatbot/
+Disallow: /css/
+Disallow: /fuentes/
+Disallow: /iconos/
+Disallow: /imagenes/
+
+
+# Impedir que anothercrawler acceda al sitio web.
+User-agent: anothercrawler
 Disallow: /
-Disallow: /chatbot
-Disallow: /css
-Disallow: /imagenes
-Disallow: /iconos
