@@ -114,7 +114,7 @@ nav ul li a:hover{
 	padding-bottom: 50px;
 	
 }
-.contenido-principal h1{
+.contenido-principal h1,h2,h3,h4,h5,h6{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	font-weight: bold;
@@ -142,8 +142,9 @@ input[type=text]:focus {
     width: 100%;
 }
 .flotante {
-    display:scroll;
-        position:fixed;
-        bottom:320px;
+    	display:scroll;
+        position:middle;
+        bottom:0px;
         right:0px;
+        z-index: 1;
 }
